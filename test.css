@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: 'Open Sans',sans-serif ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+.sidebar .logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sidebar .logo img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.sidebar {
+    background-color:#1A0931;
+    width: 68px;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
+.content {
+    display: flex;
+    margin-top: 38px;
+    gap: 35px;
+}
+
+.container h1 {
+    font-size: 20px;
+    width: 174px 24px; 
+}
+
+.content .content1 {
+    background-color: #FEFEFF;
+    max-width: 306px;
+}
+
+
+.content1 {
+    /* margin-top: 25px; */
+    width: 306px;
+    height: 340px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.content1 .div2 {
+    width: 282px;
+    height: 116px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 12px;
+    display: block;
+    justify-content: center;
+
+}
+
+.content1 .element{
+    display: flex;
+    margin-top: 30px;
+    /* max-height: 16px; */
+    justify-content: space-between;
+    align-items: center;
+    /* background: #000; */
+
+}
+
+.content .element .left {
+    display: flex;
+    gap: 10px;
+    width: auto;
+    align-items: center;
+}
+
+.content .content1 .element .left img#cart {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.content1 .div3 {
+    width: 282px;
+    height: 96px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 12px;
+    /* display: flex; */
+}
+
+.content1 .div3 .element-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* background: #000; */
+}
+
+.content1 .div3 .element-1 .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content .content1 .element-1 .left img#cart {
+    width: 16px;
+    height: 16px;
+}
+
+.content1 .div4 {
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.content .content2 {
+    background-color: #FEFEFF;
+    max-width: 306px;
+}
+
+
+.content2 {
+    /* margin-top: 25px; */
+    width: 306px;
+    height: 148px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.content2 .div2 {
+    margin-top: 5px;
+    padding-top: 15px;
+    display: flex;
+    color: #B7BDC9;
+
+}
+
+.content2 .div3 {
+    padding-top: 15px;
+}
+
+.content .content3 {
+    background-color: #FEFEFF;
+    max-width: 306px;
+}
+
+
+.content3 {
+    /* margin-top: 25px; */
+    width: 306px;
+    height: 232px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.content3 .div2 {
+    width: 282px;
+    height: 116px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 12px;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.content3 .div2 .element-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* background: #000; */
+}
+
+.content3 .div2 .element-2 .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content .content3 .element-2 .left img#cart {
+    width: 16px;
+    height: 16px;
+}
+
+.content3 .div4 {
+    padding-top: 15px;
+}
+
+.content .content4 {
+    background-color: #FEFEFF;
+    max-width: 306px;
+}
+
+
+.content4 {
+    /* margin-top: 25px; */
+    width: 306px;
+    height: 232px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.content4 .div2 {
+    width: 282px;
+    height: 116px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 12px;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.content4 .div4 {
+    padding-top: 15px;
+}
+
+.content4 .div2 .element-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* background: #000; */
+}
+
+.content4 .div2 .element-3 .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content .content4 .element-3 .left img#cart {
+    width: 16px;
+    height: 16px;
+}
